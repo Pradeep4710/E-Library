@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color:rgba(255, 228, 196, 0.507);
+}
+
+.active {
+    color: black;
+    font-weight: 900;
+  } 
+
+input::placeholder {
+  color: black;
+  opacity: 1;
+}
